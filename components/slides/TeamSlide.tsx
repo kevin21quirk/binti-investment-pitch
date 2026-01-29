@@ -123,8 +123,8 @@ export default function TeamSlide() {
             <div className="text-sm opacity-90">Years Combined Experience</div>
           </div>
           <div className="bg-gradient-to-br from-green-500 to-emerald-600 text-white rounded-xl p-3 text-center">
-            <div className="text-3xl font-bold mb-1">3</div>
-            <div className="text-sm opacity-90">Successful Exits</div>
+            <div className="text-3xl font-bold mb-1">4</div>
+            <div className="text-sm opacity-90">Core Team Members</div>
           </div>
         </motion.div>
       </div>

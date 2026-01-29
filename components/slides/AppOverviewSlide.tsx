@@ -76,6 +76,20 @@ export default function AppOverviewSlide() {
           A comprehensive menstrual health tracking application with smart pad integration
         </motion.p>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-4 mb-6 border-2 border-blue-200"
+        >
+          <h3 className="text-lg font-bold text-gray-900 mb-2">Testing Technology Stack</h3>
+          <p className="text-sm text-gray-700">
+            Currently built with PWA technology for cross-platform compatibility. Upon full validation and testing completion, 
+            the platform will be packaged and deployed on <span className="font-semibold text-blue-600">AWS servers and services</span> for 
+            scalable, enterprise-grade infrastructure with enhanced security and performance.
+          </p>
+        </motion.div>
+
         <div className="grid grid-cols-4 gap-3">
           {features.map((feature, index) => {
             const Icon = feature.icon

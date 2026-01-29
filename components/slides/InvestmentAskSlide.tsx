@@ -126,6 +126,27 @@ export default function InvestmentAskSlide() {
                 </div>
               </div>
             </div>
+
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border-2 border-blue-200 p-2">
+              <div className="flex items-center gap-2 mb-1">
+                <TrendingUp className="w-4 h-4 text-blue-600" />
+                <h4 className="text-sm font-bold text-gray-900">Investment Terms</h4>
+              </div>
+              <div className="space-y-1 text-xs text-gray-700">
+                <div className="flex justify-between">
+                  <span>Equity Offered:</span>
+                  <span className="font-bold text-blue-600">15-20%</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Pre-Money Valuation:</span>
+                  <span className="font-bold text-blue-600">£1.0M - £1.4M</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Use of Funds:</span>
+                  <span className="font-bold text-blue-600">18-Month Runway</span>
+                </div>
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>
