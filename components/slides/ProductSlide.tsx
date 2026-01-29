@@ -104,7 +104,9 @@ export default function ProductSlide() {
                     alt="Ribbon Sensor for Leakage Detection"
                     fill
                     style={{ objectFit: 'contain' }}
-                    priority
+                    loading="lazy"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    quality={85}
                   />
                 </div>
               </div>
@@ -123,7 +125,9 @@ export default function ProductSlide() {
                     alt="Smart Pad Device with Components"
                     fill
                     style={{ objectFit: 'contain' }}
-                    priority
+                    loading="lazy"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    quality={85}
                   />
                 </div>
               </div>
